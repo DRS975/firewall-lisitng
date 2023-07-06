@@ -1,0 +1,307 @@
+DECLARATION
+
+I declare that this project report titled“FIREWALL LISTING WITH PYTHON”, submitted in partial fulfilment of the degree of B. Tech in COMPUTER SCIENCE AND ENGINEERING is a record of original work which is carried out by us under the
+guidance Mr.VV SARATH KUMAR, Group Head BG&amp;WSG, and has not formed the
+basis for the award of any other degree or diploma, in this or any other Institution or University.
+In keeping with the ethical practice in reporting scientific information, due acknowledgements
+have been made wherever the findings of others have been cited.
+
+All Confidential Information means any data or information like scientific or technical
+information, invention, design, process, procedure, formula, improvement, technology or method
+is a proprietary of NRSC /ISRO which were used to by the undersign for the partial fulfilment of
+the degree of B. Tech in COMPUTER SCIENCE AND ENGINEERING in SRM UNIVERSITY
+which will not be disclosed to any industry/public without any confirmation from NRSC/ISRO.
+
+AJAY KRISHNA K A
+
+
+
+
+###################################################################################
+
+BRIEF ON NRSC
+
+ABOUT NRSC
+National Remote Sensing Centre (NRSC) is one of the primary centres of the Indian Space Research Organisation (ISRO), Department of Space (DOS). NRSC  has the mandate for the establishment of ground stations for receiving satellite data, generation of data products, dissemination to the users, development of techniques for remote sensing applications including disaster management support, geospatial services for good governance, and capacity building for professionals, faculty, and students. 
+NRSC operates through multiple campuses to meet the national and regional remote sensing data and application needs of the country.
+ORGANISATION STRUCTURE
+
+
+
+SERVICES
+Bhuvan Services Overview
+Geospatial services provided in the Bhuvan portal are the dissemination of satellite data, and satellite-derived products pertaining to various themes and domains. Domains and the related project/theme-specific database information are Organised here for better visualization of the summary of data available in Bhuvan.
+Aerial Services & Digital Mapping
+Aerial Services and Digital Mapping (ASDM) activities at NRSC primarily include the generation of large-scale topographic maps and very high-resolution Digital Terrain Models (DTM) for highly flood-prone river reaches in India, and for  2D/3D mapping in urban areas, infrastructure planning. It also caters to a large number of specialised applications like volumetric analysis, proposed new alignment corridors, and 3D visualisation.
+NRSC has four decades of aerial remote sensing experience. This expertise is evolved in line with the application demands and availability of state-of-the-art aerial sensors from time to time, viz. aerial film cameras, multispectral scanners, aeromagnetic surveys in earlier days, and currently Large Format Digital Cameras (LFDC), Laser Scanners with Digital Cameras (LSDC), etc. Supporting the sensor validation test flights for specialised sensors like Synthetic Aperture Radars, Inertial Measurement Units, Radio Altimeters, Thermal sensors, Hyperspectral sensors, Atmospheric sensors, etc.
+International Ground Segment (IGS)  Services
+NRSC has a wealth of images from Indian and foreign remote-sensing satellites in its archives. It also has the capability to acquire data pertaining to any part of the globe on demand. NRSC has been instrumental in promoting IRS data for International users and agencies by providing data and technical services. NRSC also enables ANTRIX, the commercial and marketing arm of ISRO, to execute various remote sensing services 
+
+
+for International Customers worldwide.
+Data Acquisition & Processing Support: Providing turnkey solutions by the establishment of ground segment systems from Planning, Antenna systems, direct data receiving, processing, and catalog generation.
+Establishment of  Virtual Ground Station (VGS). Setting up Virtual ground stations (VGS). Providing users near real-time, full-resolution RAW satellite data using ISRO's own constellation of ground stations for generating data products locally at the user's site
+
+
+
+Satellite Ground Station Services
+Indian remote sensing satellite program has witnessed rapid technological advancement both on space and ground segments in the last few decades. With the emerging high-resolution satellite programs with increased data rates from 10 Mbps to 960 Mbps, the role of the ground station has become more critical. Keeping in view of these challenges, NRSC designed and developed an S/X band dual polarisation 7.5M antenna system to meet the current and future Earth observation mission requirements.
+NRSC can establish antenna systems for receiving remote sensing satellite data at S and X bands for Indian and foreign users subject to the approval of the Department of Space (DOS).
+APPLICATIONS
+Agriculture
+Disaster Management Support
+Forestry and Ecology
+Land Use/Land Cover
+Rural Development
+Soils
+Urban & Infrastructure
+Water Resources
+Earth and Climate Studies
+
+
+
+
+
+BRIEF ON NETWORKING
+
+
+Networking is the practice of connecting devices and systems together to facilitate communication, data sharing, and resource sharing. It plays a fundamental role in the modern digital landscape, enabling organisations and individuals to connect and interact in a seamless manner. Networks can be classified into various types, such as Local Area Networks (LANs) within a limited geographical area, Wide Area Networks (WANs) spanning larger distances, and the global Internet connecting networks worldwide. 
+
+Networking involves the use of networking devices like routers, switches, modems, and wireless access points to establish connections and transmit data. It employs protocols and standards such as TCP/IP, Ethernet, and Wi-Fi to ensure interoperability and reliable data transfer. Networking enables diverse applications such as email, web browsing, file sharing, video conferencing, and cloud computing.
+
+Key concepts in networking include IP addressing, subnetting, routing, network security, and network management. Networking professionals, such as network administrators and engineers, are responsible for designing, implementing, and maintaining networks to ensure their optimal performance, security, and scalability.
+
+
+
+BRIEF ON BHUVAN NETWORK
+
+Bhuvan is a web-based geoportal developed by the Indian Space Research Organisation (ISRO) that provides satellite imagery, geospatial data, and interactive mapping services. The architecture of Bhuvan is designed to enable users to access and explore a wide range of geospatial information pertaining to India.
+
+At its core, Bhuvan utilises a multi-tier architecture. The presentation layer allows users to interact with the system through a web-based interface, providing intuitive tools for navigation, data visualisation, and analysis. The application layer manages user requests, processes queries, and coordinates data retrieval and presentation.
+
+
+The data layer of Bhuvan incorporates various geospatial datasets, including satellite imagery, topographic maps, thematic layers, and real-time data. These datasets are sourced from a combination of satellite missions, ground surveys, and other authoritative sources. The data is organised, indexed, and stored in a distributed manner across servers to ensure efficient retrieval and scalability.
+
+Bhuvan leverages a network of distributed servers and caching mechanisms to optimize data access and delivery. This allows for faster response times and improved user experience, particularly when dealing with large datasets and imagery.
+
+DIAGRAM1:N/W ARCHITECTURE
+
+
+NETWORKING DEVICES
+
+Networking devices are essential components that enable communication and data transfer within a network. They serve various functions to ensure efficient connectivity and secure transmission of information. Routers play a crucial role by directing network traffic between different networks and providing access to the internet. Switches connect devices within a network, facilitating the exchange of data between them. Firewalls protect the network by monitoring and controlling incoming and outgoing traffic, preventing unauthorised access. Modems convert digital signals into analog signals for transmission over telephone lines or cable systems, and vice versa. Wireless Access Points (WAPs) enable wireless connectivity by transmitting and receiving wireless signals. Network Interface Cards (NICs) connect devices to a network, enabling communication through Ethernet or wireless connections. Bridges connect multiple networks, allowing communication between them. Hubs enable device connectivity within a network, but data transmission is shared among all devices. Repeaters amplify or regenerate network signals to extend the reach of a network. Extenders expand the coverage of wireless networks in areas with weak signals. Gateways connect different types of networks, translating protocols to facilitate communication. Lastly, Load Balancers distribute network traffic across multiple servers to optimize performance. Together, these networking devices form the backbone of modern networks, ensuring seamless communication and data transfer.
+
+
+A few networking devices:
+
+1. Router
+2. Switch
+3. Firewall
+4. Modem
+5. Wireless Access Point (WAP)
+6. Network Interface Card (NIC)
+7. Network Bridge
+8. Network Hub
+9. Network Repeater
+10. Network Extender
+11. Network Gateway
+12. Network Load Balancer
+
+
+
+
+
+
+SECURITY DEVICES
+
+Security devices in a network are essential components that help protect the network infrastructure and connected devices from various security threats. One of the primary security devices is a firewall, which acts as a barrier between the internal network and external networks, monitoring and filtering network traffic to prevent unauthorized access and block malicious activities. Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS) are employed to detect and alert network administrators about potential unauthorised access attempts or malicious activities, and they can actively block or mitigate threats to prevent them from reaching the network or its devices. Virtual Private Network (VPN) concentrators establish secure remote access connections by encrypting data traffic between remote users and the network. Unified Threat Management (UTM) appliances integrate multiple security functions, such as firewall, antivirus, and intrusion detection/prevention, into a single device for simplified management. Other security devices include proxy servers, secure web gateways, data loss prevention appliances, network access control systems, and secure email gateways. Together, these security devices work in tandem to create layers of defense, safeguarding the network, and ensuring the confidentiality, integrity, and availability of network resources
+
+Some security devices commonly used in networks:
+
+Firewall
+Intrusion Detection System (IDS)
+Intrusion Prevention System (IPS)
+Virtual Private Network (VPN) Concentrator
+Unified Threat Management (UTM) Appliance
+Proxy Server
+Secure Web Gateway (SWG)
+Data Loss Prevention (DLP) Appliance
+Network Access Control (NAC) System
+
+
+
+NETWORKS
+
+A network is a collection of interconnected devices, such as computers, servers, routers, switches, and other networking hardware, that are linked together to enable communication and data sharing. It serves as a framework for devices to exchange information and resources, facilitating collaboration and connectivity.
+
+In a network, devices are connected using physical or wireless connections, allowing them to communicate and share data with each other. These connections can be established within a local area, such as an office or home, or across larger geographical areas, forming wide area networks (WANs) that can span across cities, countries, or even continents.
+
+Networks rely on protocols and standards, such as the TCP/IP protocol suite, to ensure that devices can communicate effectively and efficiently. These protocols define rules and guidelines for data transmission, addressing, routing, and error handling.
+
+
+INTERNAL NETWORKS
+
+An internal network, also known as an intranet, refers to a network that is privately owned and restricted to a specific organisation, such as a company, educational institution, or government agency. It is designed to facilitate communication, data sharing, and resource access among authorised users within the organisation. Internal networks often include local area networks (LANs) that connect devices within a specific physical location, such as an office building. These networks typically have controlled access and are secured to protect sensitive information and resources.
+
+EXTERNAL NETWORKS
+
+An external network, commonly referred to as the internet, encompasses a global network infrastructure that connects multiple organizations, individuals, and devices worldwide. It is a vast network of interconnected networks that allows for global communication, information sharing, and access to resources and services. External networks are accessible to the public, and devices connected to them can communicate with other devices across the globe. The internet relies on various technologies, protocols, and service providers to enable connectivity and data transfer on a global scale.
+
+
+
+NETWORK DEVICES
+
+N.1:ROUTER
+
+IN GENERAL
+
+Routers are essential networking devices that serve as the central hub for directing network traffic between different networks. They operate at the network layer (Layer 3) of the OSI model and are responsible for forwarding data packets across networks, determining the most efficient path for data transmission.
+
+The primary function of a router is to connect multiple networks together and enable communication between them. It achieves this by examining the destination IP address of incoming data packets and making decisions on where to send them next. Routers maintain routing tables, which contain information about the network topology and the best paths for forwarding packets.
+
+Routers provide several key features and benefits, including:
+
+1. Packet forwarding: Routers receive data packets and determine the appropriate destination based on the packet's IP address.
+
+2. Network addressing: Routers assign IP addresses to devices within a network and manage the addressing scheme.
+
+3. Network segmentation: Routers enable the creation of separate network segments, improving network performance, security, and management.
+
+4. Traffic control and Quality of Service (QoS): Routers can prioritise network traffic and allocate bandwidth based on predetermined rules, ensuring optimal performance for critical applications.
+
+5. Security: Routers often include built-in firewall capabilities to protect the network from unauthorised access and potential threats.
+
+6. Network connectivity: Routers provide connectivity to the internet, allowing devices on the network to access online resources.
+
+Routers are a fundamental component in both small home networks and large enterprise networks, playing a crucial role in ensuring efficient and secure data transfer between networks.
+
+
+
+
+Different Types of Routers:
+1. Home Router: These routers are typically used in homes and small offices to provide internet access to multiple devices, such as computers, smartphones, and smart home devices. They often include Wi-Fi capabilities for wireless connectivity.
+
+2. Enterprise Router: Designed for larger organizations, enterprise routers offer advanced features and capabilities to handle high network traffic and complex network architectures. They provide secure and reliable connectivity for multiple sites and often support advanced routing protocols.
+
+3. Core Router: Core routers are high-performance routers that sit at the core of a network infrastructure, handling large volumes of data traffic. They are responsible for directing data packets between different networks and are crucial for large-scale networks, such as internet service providers (ISPs).
+
+4. Edge Router: Edge routers are positioned at the edge of a network, connecting the internal network to external networks, such as the internet. They provide functions like firewalling, network address translation (NAT), and Virtual Private Network (VPN) support for secure connectivity.
+
+5. Wireless Router: Wireless routers combine the functions of a router with a wireless access point. They allow devices to connect to the network using Wi-Fi technology, providing wireless internet access.
+
+
+
+
+
+
+ROUTERS AT BHUVAN
+
+At Bhuvan BROCADE routers are used
+
+The external routers are connected to two isps for redundancy
+
+The two ISP for Bhuvan are from Reliance and Tata 
+
+The routers are configured such that even f one of the ISP is down for some reason
+ the router will be connect to the internet or the public ip with the help of the other ISP
+(Internet Service Provider)
+
+
+
+
+
+N.2:SWITCHES
+
+IN GERNERAL
+
+Switches are networking devices that operate at the data link layer (Layer 2) of the OSI model and are designed to connect devices within a local area network (LAN). They facilitate the efficient and secure transmission of data between devices within the same network.
+
+Switches have multiple ports, typically ranging from a few to several dozen ports, to which devices like computers, servers, printers, and other networking devices can be connected. Each port on a switch acts as an independent communication channel, allowing devices to communicate with one another directly.
+
+The main functions of switches include:
+
+1. Forwarding: Switches examine the Media Access Control (MAC) addresses of incoming data packets and forward them to the appropriate port based on the destination MAC address.
+
+2. Filtering: Switches use MAC address tables to determine the destination port for each data packet, ensuring that the packet is only sent to the intended recipient device and not unnecessarily broadcasted to all ports.
+
+3. Segmentation: Switches segment a network into multiple smaller collision domains, reducing network congestion and improving overall network performance.
+
+4. Bandwidth optimization: Switches provide dedicated bandwidth for each connected device, enabling simultaneous communication without contention for network resources.
+
+5. VLAN support: Some switches offer support for Virtual Local Area Networks (VLANs), allowing the network to be logically segmented into separate virtual networks for improved security and network management.
+
+Switches play a critical role in local network connectivity, providing high-speed, reliable, and efficient communication between devices within a LAN. They are commonly used in home networks, small businesses, and large enterprise networks to create and manage the internal network infrastructure.
+
+
+
+
+AT BHUVAN THE FOLLOWING SWITCHES ARE USED
+
+EXTERNAL CORE SWITCH
+
+In a network, the core switch is a high-performance and high-capacity switch that forms the backbone of the network. It connects multiple distribution switches and is responsible for handling large volumes of data traffic within the network. The core switch is typically located in a central or strategic location to ensure efficient data transfer and communication between various parts of the network.
+
+An "external core switch" refer to a core switch that is located outside the primary network infrastructure, such as in a separate data center or a different physical location. This setup may be employed for redundancy, disaster recovery, or to connect multiple geographically dispersed networks.
+
+At Bhuvan BROCADE VDX 8770 switch are used for the purpose,this model can have the uplink and downlink connection through both the fiber cable as well as the ethernet cable.
+The switches are configured in such a way that ther are two switches one primary and the other as a backup which become the primary in case the first primary switch goes down.
+
+
+INTERNAL SWITCH
+
+Internal switches, also known as access switches, are networking devices that operate within the internal network infrastructure of an organization or a local area network (LAN). These switches are responsible for connecting end-user devices, such as computers, printers, IP phones, and other networked devices, to the LAN.
+
+Internal switches serve as intermediaries within the network, facilitating the transmission of data between devices connected to their ports. They operate at the data link layer (Layer 2) of the OSI model and use Media Access Control (MAC) addresses to forward data packets to the appropriate destination devices.
+
+
+
+
+
+
+TOR SWITCH
+
+TOR switches, also known as "Top of Rack" switches, are network switches that are typically placed at the top of a server rack or cabinet. They provide connectivity for multiple servers or network devices within a data center environment.
+
+10G
+
+10G TOR switch: A 10G TOR switch supports 10 Gigabit Ethernet (10G) connections, allowing for high-speed data transmission between servers and the network. It offers fast 
+and reliable connectivity for demanding applications and bandwidth-intensive workloads.
+
+BROCADE VDX 6470
+Which supporting both ethernet as well as fiber connection are used at Bhuvan.
+The configuration is such that they nerver delays the data transmission in case a switch fail its taken up by the backup switch
+
+
+40G
+
+A 40G TOR switch supports 40 Gigabit Ethernet (40G) connections, providing even higher bandwidth capacity compared to the 10G TOR switch. It is suitable for data centers with greater demands for data transfer and offers increased throughput for high-performance computing and storage environments.
+
+BROCADE VDX 6940
+Which supporting both ethernet as well as fiber connection are used at Bhuvan.
+The configuration is such that they nerver delays the data transmission in case a switch fail its taken up by the backup switch
+
+
+SAN SWITCH
+SAN stands for Storage Area Network, and a SAN switch is a networking device specifically designed for connecting servers and storage devices in a SAN infrastructure. SAN switches facilitate the transfer of data between servers and storage systems, enabling efficient and reliable storage connectivity.
+
+SAN switches operate at the Fibre Channel (FC) protocol level and provide high-speed, low-latency connections for storage traffic. They typically feature multiple Fibre Channel ports that allow servers and storage devices to be connected in a meshed or fabric topology.
+
+BROCADE 6510  and 6520 is used at Bhuvan
+
+
+
+
+
+
+
+1G SWITCH
+
+A 1G switch, also known as a Gigabit switch, is a networking device that provides connectivity for devices within a local area network (LAN) at speeds of 1 Gigabit per second (1Gbps). It is designed to facilitate high-speed data transmission and improved network performance compared to older Fast Ethernet (100Mbps) switches.
+
+A 1G switch typically features multiple Ethernet ports, such as 8, 16, 24, or 48 ports, allowing devices like computers, servers, printers, and other networked devices to connect and communicate with each other. It operates at the data link layer (Layer 2) of the OSI model and uses Ethernet protocols for data transmission.
+
+BROCADE ICX 7250 is used at Bhuvan
+This switch can only be interfaced through ethernet cable only.
+
+
+
