@@ -1,0 +1,96 @@
+edit name0/0
+set subnet 192.168.2.1/32
+command messagereceived<06Jul2023>
+next
+edit name0/1
+set subnet 192.168.2.2/32
+command messagereceived<06Jul2023>
+next
+edit name0/2
+set subnet 192.168.2.4/32
+command messagereceived<06Jul2023>
+next
+edit name0/3
+set subnet 192.168.2.3/32
+command messagereceived<06Jul2023>
+next
+edit name0/4
+set subnet 192.168.2.1/32
+command messagereceived<06Jul2023>
+next
+edit name0/5
+set subnet 192.168.2.2/32
+command messagereceived<06Jul2023>
+next
+edit name0/6
+set subnet 192.168.2.4/32
+command messagereceived<06Jul2023>
+next
+edit name0/7
+set subnet 192.168.2.3/32
+command messagereceived<06Jul2023>
+next
+edit name0/8
+set subnet 192.168.2.1/32
+command messagereceived<06Jul2023>
+next
+edit name0/9
+set subnet 192.168.2.2/32
+command messagereceived<06Jul2023>
+next
+edit name0/10
+set subnet 192.168.2.4/32
+command messagereceived<06Jul2023>
+next
+edit name0/11
+set subnet 192.168.2.3/32
+command messagereceived<06Jul2023>
+next
+edit name0/12
+set subnet 192.168.2.1/32
+command messagereceived<06Jul2023>
+next
+edit name0/13
+set subnet 192.168.2.2/32
+command messagereceived<06Jul2023>
+next
+edit name0/14
+set subnet 192.168.2.4/32
+command messagereceived<06Jul2023>
+next
+edit name0/15
+set subnet 192.168.2.3/32
+command messagereceived<06Jul2023>
+next
+edit name0/16
+set subnet 192.168.2.1/32
+command messagereceived<06Jul2023>
+next
+edit name0/17
+set subnet 192.168.2.2/32
+command messagereceived<06Jul2023>
+next
+edit name0/18
+set subnet 192.168.2.4/32
+command messagereceived<06Jul2023>
+next
+edit name0/19
+set subnet 192.168.2.3/32
+command messagereceived<06Jul2023>
+next
+edit name0/20
+set subnet 192.168.2.1/32
+command messagereceived<06Jul2023>
+next
+edit name0/21
+set subnet 192.168.2.2/32
+command messagereceived<06Jul2023>
+next
+edit name0/22
+set subnet 192.168.2.4/32
+command messagereceived<06Jul2023>
+next
+edit name0/23
+set subnet 192.168.2.3/32
+command messagereceived<06Jul2023>
+end

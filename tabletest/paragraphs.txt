@@ -1,0 +1,2 @@
+@timestamp:a T:a1 bytes:a2 clientip:a3 forward_IP:a4 geoip.city_name:a5 geoip.continent:a6 geoip.countory_name:a7 geoip.location.lat:a8 geoip.locahon.lon:a9 geoip.state_name:a10 geoip.time_zone:a11
+

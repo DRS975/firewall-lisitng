@@ -1,0 +1,11 @@
+Date: 2023-07-08, Time: 14:30:45
+Source IP: 192.168.1.101, Destination IP: 216.58.212.110
+Protocol: TCP, Source Port: 58942, Destination Port: 443
+Action: ALLOWED
+Description: Outbound connection to a trusted web server.
+
+Date: 2023-07-08, Time: 15:05:12
+Source IP: 10.0.0.12, Destination IP: 172.16.0.24
+Protocol: UDP, Source Port: 514, Destination Port: 162
+Action: BLOCKED
+Description: Denied SNMP traffic from an unauthorized source.

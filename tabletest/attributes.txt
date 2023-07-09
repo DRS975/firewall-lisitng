@@ -1,0 +1,24 @@
+@timestamp:
+
+T:
+
+bytes:
+
+clientip:
+
+forward IP: 
+
+geoip.city_name:
+
+geoip.continent:
+
+geoip.countory_name: 
+
+geoip.location.lat:
+
+geoip.locahon.lon:
+
+geoip.state_name: 
+
+geoip.time_zone:
+
